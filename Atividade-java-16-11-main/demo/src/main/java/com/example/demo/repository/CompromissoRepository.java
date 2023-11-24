@@ -12,8 +12,9 @@ import com.example.demo.entities.Compromisso;
 
 @Repository
 public interface CompromissoRepository extends JpaRepository<Compromisso, Long>{
-	    Optional<Compromisso> findById(Long id);
+	  Optional<Compromisso> findById(Long id);
 	    List<Compromisso> findByLocal(String local);
 	    List<Compromisso> findByData(String data);
-	    List<Compromisso> findByContato(String contato);
+	    List<Compromisso> findByContato(String contatos);
+	    List<Compromisso> findByContatos(String contatos);
 	}
