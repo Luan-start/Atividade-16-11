@@ -16,5 +16,5 @@ public interface CompromissoRepository extends JpaRepository<Compromisso, Long>{
 	    List<Compromisso> findByLocal(String local);
 	    List<Compromisso> findByData(String data);
 	    List<Compromisso> findByContato(String contatos);
-	    List<Compromisso> findByContatos(String contatos);
+	   
 	}

@@ -12,8 +12,6 @@ public class Compromisso {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column(length = 50, nullable = false)
-	private String localcomp;
-	@Column(length = 12, nullable = false)
 	private String local;
 	@Column(length = 12, nullable = false)
 	private String contato;
